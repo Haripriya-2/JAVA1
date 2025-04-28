@@ -1,11 +1,13 @@
 public class Main {
     //Methods
     //A method is a block of code which only runs when it is called.
+
     //Non-parameterized method:
     //we use this when we dont want to pass any input.
     static  void greet() {
         System.out.println("Hii priya");
     }
+
     //parameterized method
     //In this input is passed to perform operations.
 
@@ -13,7 +15,7 @@ public class Main {
         System.out.println("Hello "+ name);
     }
 
-    //void methods:
+    //void method:
     // //we use this when we dont want to ret any val
     void sum(int a,int b){
         System.out.println("a: "+ a);

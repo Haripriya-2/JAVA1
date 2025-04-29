@@ -9,6 +9,8 @@ public class Main {
         new Main().display();
         int a=10;
         int b=20;
+        shadowing();
+        methodScope();
 
         //Block Scope:can be acccessible inside block only.
         {
@@ -31,7 +33,7 @@ public class Main {
 
 
     }
-    //Shadowin:
+    //Shadowing:
     static void shadowing(){
         int x=30;//shadows cls level var x
         System.out.println("x: "+x);
@@ -45,7 +47,7 @@ public class Main {
     // Method Scope:can be accessible inside method only.
     static void methodScope(){
         int s=20;
-        System.out.println(s);
+        System.out.println("s: "+s);
     }
 
 }
